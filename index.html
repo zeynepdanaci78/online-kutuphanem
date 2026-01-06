@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Library - Kitap Arama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>📚 ONLİNE KÜTÜPHANE 📚</h1>
+        <p>Onlarca kitap arasından dilediğinizi bulun.</p> 
+        <button id="themeToggle">Koyu Tema</button>
+    </header>
+
+    <section class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Kitap ismi veya yazar veya giriniz..."> 
+            <button id="searchBtn">Ara / Listele</button> 
+        </div>
+    </section>
+
+    <div id="statusMessage" class="status-info"></div> 
+
+    <main class="content-wrapper">
+        <h2 class="section-title">Sonuçlar</h2>
+        <div id="bookContainer" class="card-grid"></div> 
+    </main>
+
+    <div id="detailPanel" class="detail-overlay hidden">
+        <div class="detail-card">
+            <div id="detail-content"></div> 
+            <button id="close-detail" class="close-btn">Geri / Kapat</button> 
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div id="about" class="footer-section">
+            <h3>Hakkımızda</h3>
+            <p>Bu proje, 2026-Javascript ödevi için Zeynep Danacı tarafından hazırlanmıştır.</p> 
+        </div>
+        <div id="contact" class="footer-section">
+            <h3>İletişim</h3>
+            <p>E-posta: danacizeynep01@gmail.com</p> 
+            <p>GitHub: /zeynepdanaci78</p> 
+            <b>GitHub:</b>
+            <a href="https://github.com/zeynepdanaci78-prog" target="_blank">
+ GitHub Profilim
+
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 - Tüm hakları saklıdır. Karabük Üniveristesi 2026-Final Ödevi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
